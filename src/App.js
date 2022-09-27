@@ -1,12 +1,13 @@
 import React from "react"
-import { GlobalStyle } from "./Global/GlobalStyle"
+import * as S from "./Global/GlobalStyle"
+import Routers from "../src/services/Routers.js"
 
 export default function App() {
 
   return (
     <>
-      <GlobalStyle />
-      <Rotas />
+      <S.GlobalStyle />
+      <Routers />
     </>
   )
 }
