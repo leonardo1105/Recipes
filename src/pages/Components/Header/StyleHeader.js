@@ -66,6 +66,7 @@ export const Ul = styled.ul`
   li{
     padding: 0.5em;
     text-align: center;
+    transition: 0.2s all;
     :hover{
       border: solid black;
     }
