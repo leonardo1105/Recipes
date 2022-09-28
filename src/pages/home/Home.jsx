@@ -1,16 +1,13 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import { Header } from "../Components/Header/Header.jsx"
+
+
 export function Home() {
 
   return (
     <>
-      <header>
-        <ul>
-          <li><Link>ABOUT</Link></li>
-          <li><Link>RECIPES</Link></li>
-          <li><Link>SUBSCRIBE</Link></li>
-        </ul>
-      </header>
+      <Header />
+
     </>
   )
 }
