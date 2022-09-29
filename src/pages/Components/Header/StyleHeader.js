@@ -43,18 +43,6 @@ export const Nav = styled.nav`
     display: none;
   }
 `
-export const Figure = styled.figure`
-  display: none;
-  @media only screen and (max-width: 485px){
-    display: flex;
-    justify-content: flex-end;
-   
-    img{
-      width: 40px;
-      cursor: pointer;
-    }
-  }
-`
 export const Ul = styled.ul`
   max-width: 50%;
   width: 100%;
