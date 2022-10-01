@@ -1,5 +1,6 @@
 import React from 'react';
 import Facebook from '../../../image/footer/Facebook Ellipse.svg'
+import Instagram from '../../../image/footer/Instagram Ellipse.svg'
 
 export default function Footer(){
   return(

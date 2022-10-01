@@ -1,16 +1,12 @@
 import styled from "styled-components";
 
 export const Main = styled.section`
-  margin: 1em auto;
+  margin:0 auto;
+  margin-top:-1rem;
   max-width: 1920px;
   width: 100%;
-  max-height: 3400px;
-  height: 100%;
-  background-color: #F2F4F1;
   display: flex;
   align-items: center;
-  padding-bottom: 10em;
-  background:white;
   @media only screen and (max-width:738px){
     flex-direction: column;
   }
@@ -19,20 +15,22 @@ export const Colher=styled.img`
   width:100%;
 `
 export const CaixaImg=styled.figure`
+  margin-bottom:-5px;  
   width:50%;
   height:100%;
-  margin-top:-1rem;
   @media only screen and (max-width:738px){
     width:100%;
   }
 `
 export const CaixaConteudo=styled.section`
   width:50%;
+  height:100%;
   display:flex;
   flex-direction: column;
   align-items: center;
   @media only screen and (max-width:738px){
       width:65%;
+      padding-bottom:2rem;
     }
   h2{
     margin-top:-4.5rem;
@@ -65,6 +63,9 @@ export const CaixaConteudo=styled.section`
     }
     @media only screen and (max-width:826px){
       font-size:0.8rem;
+    }
+    @media only screen and (max-width:508px){
+      width:120%;
     }
   }
 `
