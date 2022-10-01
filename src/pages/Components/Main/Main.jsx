@@ -1,6 +1,7 @@
 import React from "react"
 import { MainRecipes } from "./mainRecipes/MainRecipes.jsx"
 import { MainAbout } from "./mainAbout/MainAbout.jsx"
+import MainSubscribe from './mainSubscribe/mainSubscribe.jsx'
 
 export function Main() {
 
@@ -8,6 +9,7 @@ export function Main() {
     <>
       <MainRecipes />
       <MainAbout />
+      <MainSubscribe/>
     </>
   )
 }
