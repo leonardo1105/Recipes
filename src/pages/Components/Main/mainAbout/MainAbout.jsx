@@ -5,7 +5,7 @@ import Colher from '../../../../image/main/Colher.png'
 export function MainAbout() {
 
   return (
-    <S.Main>
+    <S.Main id="s.main">
       <S.CaixaImg>
         <S.Colher src={Colher} alt='Colher'/>
       </S.CaixaImg>
