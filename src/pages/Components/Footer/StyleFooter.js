@@ -14,7 +14,6 @@ export const FooterContainer=styled.div`
     }
     ul{
         display:flex;
-        /* background:red; */
         width:40%;
         justify-content: space-evenly;
         letter-spacing: 2px;
@@ -22,7 +21,6 @@ export const FooterContainer=styled.div`
         @media only screen and (max-width:584px){
             flex-direction: column;
             align-items:center ;
-            /* justify-content: space-between; */
             height:200px;
         }
         a{
@@ -34,12 +32,10 @@ export const FooterContainer=styled.div`
     }
     div{
         width:30%;
-        /* background:yellow; */
         min-width:164px;
     }
 `
 export const ImgContainer=styled.figure` 
-    /* background-color: blue; */
     display:flex;
     width:60%;
     justify-content: space-evenly;
