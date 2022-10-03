@@ -6,7 +6,7 @@ import * as S from "./StyleMainRecipes.js"
 export function MainRecipes() {
 
   return (
-    <S.Main>
+    <S.Main id="recipes">
       <S.H2>LATEST RECIPES</S.H2>
       <S.RowH2></S.RowH2>
       <S.BoxFigure>
