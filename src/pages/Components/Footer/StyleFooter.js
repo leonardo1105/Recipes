@@ -24,10 +24,11 @@ export const FooterContainer=styled.div`
             height:200px;
         }
         a{
-            text-decoration: none;  
+            text-decoration: none;
+            transition:0.1s;  
         }
         a:hover{
-            transition:0.5s all;
+            font-weight:600;
         }
     }
     div{

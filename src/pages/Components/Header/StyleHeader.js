@@ -55,6 +55,7 @@ export const Ul = styled.ul`
     padding: 0.5em;
     text-align: center;
     transition: 0.2s all;
+    border:3px solid rgba(0,0,0,0);
     :hover{
       border: solid black;
     }
