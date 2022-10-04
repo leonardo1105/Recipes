@@ -12,7 +12,6 @@ export const Form=styled.form`
     }
     
     div{
-        /* background:blue; */
         display:flex;
         flex-direction: column;
         align-items:center;
@@ -42,6 +41,12 @@ export const Input=styled.input`
 `
 
 export const Button=styled.button` 
+    
+    :hover{
+        background:#373737;
+        color:#DFE4DE;
+    }
+    transition:0.2s all;
     padding:10px 30px;
     background:none;
     border: 3px solid #373737;
